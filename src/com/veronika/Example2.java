@@ -1,7 +1,7 @@
 package com.veronika;
 
 class Example2 {
-     public static void main(String args[]) {
+     public static void main(String[] args) {
          int var1;
          int var2;
          var1 = 1024;
