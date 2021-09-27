@@ -8,7 +8,6 @@ public class BoolDemo {
         System.out.println("Значение b: " + b);
         b = true;
         System.out.println("Значение b: " + b);
-
         System.out.println("Результат сравнения 10 > 9 " + (10 > 9));
     }
 }
