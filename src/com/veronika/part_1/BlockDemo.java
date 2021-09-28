@@ -1,4 +1,4 @@
-package com.veronika;
+package com.veronika.part_1;
 
 public class BlockDemo {
     public static void main(String[] args) {

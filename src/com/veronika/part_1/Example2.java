@@ -1,4 +1,4 @@
-package com.veronika;
+package com.veronika.part_1;
 
 class Example2 {
      public static void main(String[] args) {
