@@ -1,7 +1,7 @@
-package com.veronika;
+package com.veronika.part_1;
 
 public class GalToLit {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         double gallons;
         double liters;
         gallons = 10;
