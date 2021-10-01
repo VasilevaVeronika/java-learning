@@ -11,9 +11,9 @@ public class Sound {
 
         distanceInMeters = 330 * 7.2;
 
-        dist2 = 446 / 6;
+        dist2 = 10.210 * 181.97 ;
 
-        distanceInMeters2 = 136 / 2;
+        distanceInMeters2 = 335 * 5.97;
 
         System.out.println("Расстояние до места вспышки молнии составляет " + dist + " футов");
 
