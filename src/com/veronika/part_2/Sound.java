@@ -21,7 +21,7 @@ public class Sound {
 
         System.out.println("Расстояние до месторасположения горы " + dist2 + " футов");
 
-        System.out.println("Расстояние до местоположения горы " + distanceInMeters2 + " метров");
+        System.out.println("Расстояние до месторасположения горы " + distanceInMeters2 + " метров");
 
     }
 
