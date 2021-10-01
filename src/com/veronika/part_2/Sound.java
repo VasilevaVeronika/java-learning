@@ -2,22 +2,26 @@ package com.veronika.part_2;
 
 // Упражнение 2.1
 
-class Sound {
+public class Sound {
 
     public static void main(String[] args) {
-        double dist, distanceInMeters;
+        double dist, distanceInMeters, dist2, distanceInMeters2;
 
         dist = 1100 * 7.2;
 
         distanceInMeters = 330 * 7.2;
 
-        distanceInMeters = 136 / 2;
+        dist2 = 446 / 6;
+
+        distanceInMeters2 = 136 / 2;
 
         System.out.println("Расстояние до места вспышки молнии составляет " + dist + " футов");
 
         System.out.println("Расстояние до места вспышки молнии составляет " + distanceInMeters + " метров");
 
-        System.out.println("Расстояние до места месторасположения горы " + distanceInMeters + " метров");
+        System.out.println("Расстояние до месторасположения горы " + dist2 + " футов");
+
+        System.out.println("Расстояние до местоположения горы " + distanceInMeters2 + " метров");
 
     }
 
