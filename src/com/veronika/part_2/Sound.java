@@ -13,7 +13,7 @@ public class Sound {
         distanceToLightInMeters = 330 * 7.2;
 
         distanceToSoundFeet = 1100 * 5.97 / 2;
-        distanceSoundToInMeters = 335 * 5.97;
+        distanceSoundToInMeters = 335 * 5.97 / 2;
 
         System.out.println("Расстояние до места вспышки молнии составляет " + distanceToLightInFeet + " футов");
         System.out.println("Расстояние до места вспышки молнии составляет " + distanceToLightInMeters + " метров");
