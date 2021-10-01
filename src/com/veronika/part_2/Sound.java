@@ -5,25 +5,21 @@ package com.veronika.part_2;
 public class Sound {
 
     public static void main(String[] args) {
-        double dist, distanceInMeters;
 
-        double soundInFeet, soundInMeters;
+        double distanceToLightInFeet, distanceToLightInMeters;
+        double distanceToSoundFeet, distanceSoundToInMeters;
 
-        dist = 1100 * 7.2;
+        distanceToLightInFeet = 1100 * 7.2;
+        distanceToLightInMeters = 330 * 7.2;
 
-        distanceInMeters = 330 * 7.2;
+        distanceToSoundFeet = 1100 * 5.97 / 2;
+        distanceSoundToInMeters = 335 * 5.97;
 
-        soundInFeet = 10.210 * 181.97 / 2;
+        System.out.println("Расстояние до места вспышки молнии составляет " + distanceToLightInFeet + " футов");
+        System.out.println("Расстояние до места вспышки молнии составляет " + distanceToLightInMeters + " метров");
 
-        soundInMeters = 335 * 5.97;
-
-        System.out.println("Расстояние до места вспышки молнии составляет " + dist + " футов");
-
-        System.out.println("Расстояние до места вспышки молнии составляет " + distanceInMeters + " метров");
-
-        System.out.println("Расстояние до месторасположения горы " + soundInFeet + " футов");
-
-        System.out.println("Расстояние до месторасположения горы " + soundInMeters + " метров");
+        System.out.println("Расстояние до месторасположения горы " + distanceToSoundFeet + " футов");
+        System.out.println("Расстояние до месторасположения горы " + distanceSoundToInMeters + " метров");
 
     }
 
