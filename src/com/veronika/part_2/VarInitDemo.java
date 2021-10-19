@@ -11,6 +11,7 @@ public class VarInitDemo {
 
             y = 100;
             System.out.println("Изменение значение y: " + y);
+
         }
     }
 }
