@@ -13,6 +13,9 @@ public class NestVar {
                 System.out.println("В этой программе есть ошибка");
 
             }
+
         }
+
     }
+    
 }
