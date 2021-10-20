@@ -11,7 +11,8 @@ public class ModDemo {
 
         dresult = 10.0 / 3.0;
         drem = 10.0 % 3.0;
-        System.out.println("Результат  и остаток от деления 10 / 3: " + iresult + " " + irem);
+
+        System.out.println("Результат и остаток от деления 10 / 3: " + iresult + " " + irem);
         System.out.println("Результат и остаток от деления 10.0 / 3.0: " + dresult + " " + drem);
     }
 }
