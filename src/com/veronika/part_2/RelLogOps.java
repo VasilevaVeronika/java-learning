@@ -22,14 +22,5 @@ public class RelLogOps {
         if(b1 | b2) System.out.println("b1 | b2: true");
         if(b1 ^ b2) System.out.println("b1 ^ b2");
 
-        System.out.println("i < j ");
-        System.out.print("i <= j ");
-        System.out.print(" i != j ");
-
-        b1 = true;
-        b2 = false;
-        System.out.println("!(b1 & b2): true");
-        System.out.println("b1 | b2: true");
-        System.out.println("b1 ^ b2: true");
     }
 }
