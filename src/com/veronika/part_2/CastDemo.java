@@ -26,5 +26,6 @@ public class CastDemo {
         b = 88;
         ch = (char) b;
         System.out.println("ch: " + ch);
+        
     }
 }
