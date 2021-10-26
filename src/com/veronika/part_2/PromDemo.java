@@ -7,9 +7,8 @@ public class PromDemo {
         int i;
 
         b = 10;
+        
         i = b * b;
-
-        b = 10;
         b = (byte) (b * b);
 
         System.out.println("i и b: " + i + " " + b);
