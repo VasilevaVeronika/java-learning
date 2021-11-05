@@ -8,7 +8,6 @@ public class LogicalOpTable {
         System.out.println("P\tQ\tAND\tQR\tXOR\tNOT");
 
         p = true;
-
         q = true;
         System.out.println(p + "\t" + q + "\t");
         System.out.println((p & q) + "\t" + (p|q) + "\t");
