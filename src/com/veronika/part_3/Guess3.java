@@ -1,6 +1,6 @@
 package com.veronika.part_3;
 
-public class Guess_3 {
+public class Guess3 {
     public static void main(String[] args)
             throws java.io.IOException {
         char ch, anwers = 'K';
