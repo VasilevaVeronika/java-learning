@@ -1,6 +1,6 @@
 package com.veronika.part_3;
 
-public class kd_in {
+public class kdIn {
     
     public static void main(String[] args)
             throws java.io.IOException {
