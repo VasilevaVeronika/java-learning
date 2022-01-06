@@ -1,6 +1,6 @@
 package part_3;
 
-public class guess_2 {
+public class guess2 {
     public static void main(String[] args)
             throws java.io.IOException {
         char ch, answer = 'K';
