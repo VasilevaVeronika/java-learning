@@ -11,6 +11,5 @@ public class kdIn {
         ch = (char) System.in.read();
 
         System.out.println("Вы нажали эту клавишу");
-
     }
 }
