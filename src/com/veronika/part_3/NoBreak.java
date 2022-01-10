@@ -2,9 +2,8 @@ package com.veronika.part_3;
 
 public class NoBreak {
     public static void main(String[] args) {
-        int i;
 
-        for (i = 0; i < 5; i++) {
+        for (int i = 0; i < 5; i++) {
             switch (i) {
                 case 0:
                     System.out.println("i меньше 1");
