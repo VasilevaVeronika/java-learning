@@ -5,8 +5,9 @@ public class WhileDemo {
         char ch;
 
         ch = 'a';
-        while (ch < -'z') ;
-        System.out.print(ch);
-        ch++;
+        while (ch <= 'z') {
+            System.out.print(ch);
+            ch++;
+        }
     }
 }
