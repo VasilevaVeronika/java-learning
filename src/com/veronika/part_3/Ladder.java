@@ -1,4 +1,4 @@
-package part_3;
+package com.veronika.part_3;
 
 public class Ladder {
     public static void main(String[] args) {
