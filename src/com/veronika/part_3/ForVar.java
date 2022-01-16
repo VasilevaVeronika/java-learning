@@ -9,7 +9,7 @@ public class ForVar {
             sum += i ;
             fact *= i;
         }
-        System.out.println("Cумма: " + sum);
-        System.out.println("Факториал: + fact");
+        System.out.println("Сумма: " + sum);
+        System.out.println("Факториал: " + fact);
     }
 }
