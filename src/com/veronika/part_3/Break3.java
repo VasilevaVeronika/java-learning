@@ -1,17 +1,22 @@
 package com.veronika.part_3;
 
 public class Break3 {
-    public static void main(String[] args)
-            throws java.io.IOException {
+    public static void main(String[] args){
 
-        char ch;
+        for(int i = 0; i < 3; i++){
+            System.out.println("Счетчик внешнего цикла: " + i);
+            System.out.println("  Счетчик внутреннего цикла: ");
 
-        for (; ; ) {
-            ch = (char) System.in.read();
+            int t = 0;
 
-            if (ch == 'q') break;
+            while (t < 100){
+
+                if(t == 10) break;
+                System.out.print(t + " ");
+                t++;
+            }
+            System.out.println();
         }
-        System.out.println("Вы нажали q !");
+       System.out.println("Циклы завершены.");
     }
 }
-
