@@ -13,7 +13,7 @@ public class HelpJava3 {
                 System.out.println(" 2) switch");
                 System.out.println(" 3) for");
                 System.out.println(" 4) while");
-                System.out.println(" 5) do-while\n");
+                System.out.println(" 5) do-while");
                 System.out.println(" 6) break");
                 System.out.println(" 7) continue\n");
                 System.out.print("Выберите (q - выход): ");
