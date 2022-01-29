@@ -6,69 +6,73 @@ public class HelpJava3 {
 
         char choice, ignore;
 
-        for (;;) {
+        for (; ; ) {
             do {
-                System.out.println("Справка:");
-                System.out.println(" 1) if");
-                System.out.println(" 2) switch");
-                System.out.println(" 3) for");
-                System.out.println(" 4) while");
-                System.out.println(" 5) do-while");
-                System.out.println(" 6) break");
-                System.out.println(" 7) continue\n");
-                System.out.print("Выберите (q - выход): ");
+                String str = new String("Справка:\n_1) if_2) witch_3) for_4) while_5) do-while_6) break_7) continue\n");
 
-                choice = (char) System.in.read();
+                for(String retval : str.split("_")){
+                    System.out.println(retval);
+                }
+                System.out.println("Выберите номер:\n");
+                System.out.println("(Чтобы выйти нажмите - q)");
 
-                do {
-                    ignore = (char) System.in.read();
-                } while (ignore != '\n');
-            } while (choice < '1' | choice > '5');
+                    choice = (char) System.in.read();
 
-            if(choice == 'q') break;
+                    do {
+                        ignore = (char) System.in.read();
+                    } while (ignore != '\n');}
+                while (choice < '1' | choice > '7') ;
 
-            System.out.println("\n");
+                if (choice == 'q') break;
 
-            switch (choice) {
-                case '1':
-                    System.out.println("Инструкция if:\n");
-                    System.out.println("if(условие) инструкция;");
-                    System.out.println("else инструкция;");
-                    break;
-                case '2':
-                    System.out.println("Инструкция switch:\n");
-                    System.out.println("switch(выражения) {");
-                    System.out.println(" case константа:");
-                    System.out.println("   последовательность инструкций");
-                    System.out.println("  break;");
-                    System.out.println("  // ...");
-                    System.out.println("}");
-                    break;
-                case '3':
-                    System.out.println("Цикл for");
-                    System.out.println("for(инициализация; условие; итерация)");
-                    System.out.println("    инструкция;");
-                    break;
-                case '4':
-                    System.out.println("Цикл while:\n");
-                    System.out.println("while(условие) инструкция;");
-                    break;
-                case '5':
-                    System.out.println("Цикл do-while:\n");
-                    System.out.println("do {");
-                    System.out.println("  инструкция");
-                    System.out.println("} while(условие);");
-                    break;
-                case '6':
-                    System.out.println("Инструкция break:\n");
-                    System.out.println("break; или break метка;");
-                    break;
-                case '7':
-                    System.out.println("Инструкция coutinue:\n");
-                    System.out.println("coutinue; или coutinue метка;");
-                    break;
+                System.out.println("\n");
+
+                switch (choice) {
+                    case '1':
+                        String str = new String("Инструкция if:\n_if(условие) инструкция;_else инструкция;");
+
+                        for(String retval : str.split("_")){
+                            System.out.println(retval);
+                        }
+                        break;
+                    case '2':
+                        String str1 = new String("Инструкция switch:\n_switch(выражение) {_case константа:_последовательность инструкции break;_//..._}");
+
+                        for(String retval : str1.split("_")){
+                            System.out.println(retval);
+                        }
+                        break;
+                    case '3':
+                        String str2 = new String("Цикл for:\n_for(инициализация; условие; итерация)_инструкция;");
+
+                        for(String retval : str2.split("_")){
+                            System.out.println(retval);
+                        }
+                        break;
+                    case '4':
+                        String str4 = new String("Цикл while:\n_while(условие) инструкция;");
+
+                        for(String retval : str4.split("_")){
+                            System.out.println(retval);
+                        }
+                        break;
+                    case '5':
+                        String str5 = new String("Цикл do-while:\n_do {_инструкция_} while(условие);");
+
+                        for(String retval : str5.split("_")){
+                            System.out.println(retval);
+                        }
+                        break;
+                    case '6':
+                        System.out.println("Инструкция break:\n");
+                        System.out.println("break; или break метка;");
+                        break;
+                    case '7':
+                        System.out.println("Инструкция coutinue:\n");
+                        System.out.println("coutinue; или coutinue метка;");
+                        break;
+                }
+                System.out.println("");
             }
-            System.out.println("");
         }
     }
-}
