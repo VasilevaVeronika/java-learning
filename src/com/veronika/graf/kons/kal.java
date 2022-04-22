@@ -1,5 +1,4 @@
 package com.veronika.graf.kons;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -105,10 +104,22 @@ public class kal {
                         stringList2.remove(index + 1);
                         stringList2.remove(index);
                     }
+                } else if (stringList2.indexOf("+") != -1) {
+
+                    int index = stringList2.indexOf("+");
+
+                    result = Double.valueOf(stringList2.get(index - 1)) + Double.valueOf(stringList2.get(index + 1));
+
+                    stringList2.add(index - 1, String.valueOf(result));
+                    stringList2.remove(index + 2);
+                    stringList2.remove(index + 1);
+                    stringList2.remove(index);
                 }
-                
+                if((stringList2.indexOf("*") == -1) && (stringList2.indexOf("/") == -1) && (stringList2.indexOf("+") == -1) && (stringList2.indexOf("-") == -1))
+           return result;
             }
         }
+        return Double.valueOf(strList.get(0));
     }
 }
 
