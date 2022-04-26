@@ -9,8 +9,9 @@ public class Vehicle {
 class VehicleDemo {
     public static void main(String[] args) {
         Vehicle minivan = new Vehicle();
+        Vehicle sportscar = new Vehicle();
 
-        int range;
+        int range1, range2;
 
         //присваивание значений полям
 
@@ -18,10 +19,16 @@ class VehicleDemo {
         minivan.fuelcap = 16;
         minivan.mpq = 21;
 
+        sportscar.passenqers = 2;
+        sportscar.fuelcap = 14;
+        sportscar.mpq = 12;
+
         //расчёт дальности поездки с полным баком
 
-        range = minivan.fuelcap * minivan.mpq;
-        System.out.println("Мини-фургон может перевезти " + minivan.passenqers + " пассажиров на расстояние " + range + " миль");
+        range1 = minivan.fuelcap * minivan.mpq;
+        range2 = sportscar.fuelcap * sportscar.mpq;
 
+        System.out.println("Мини-фургон может перевезти " + minivan.passenqers + " пассажиров на расстояние " + range1 + " миль");
+        System.out.println("Спортивный автомобиль может перевезти " + sportscar.passenqers + " пассажиров на расстояние " + range2 + " миль");
     }
 }
