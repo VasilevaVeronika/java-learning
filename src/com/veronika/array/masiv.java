@@ -1,4 +1,4 @@
-package com.veronika;
+package com.veronika.array;
 
 public class masiv {
     public static void main(String[]args){
