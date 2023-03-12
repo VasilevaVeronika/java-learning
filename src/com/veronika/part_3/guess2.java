@@ -1,4 +1,4 @@
-package part_3;
+package com.veronika.part_3;
 
 public class guess2 {
     public static void main(String[] args)

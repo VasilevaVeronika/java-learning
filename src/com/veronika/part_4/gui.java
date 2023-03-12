@@ -1,4 +1,4 @@
-package com.veronika;
+package com.veronika.part_4;
 
 import com.sun.tools.javac.Main;
 
