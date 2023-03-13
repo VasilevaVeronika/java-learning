@@ -137,3 +137,4 @@ hs_err_pid*
 
 .idea
 *.iml
+src/com/veronika/inheritance.java

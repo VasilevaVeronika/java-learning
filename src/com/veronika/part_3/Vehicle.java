@@ -1,4 +1,4 @@
-package com.veronika.part_4;
+package com.veronika.part_3;
 
 public class Vehicle {
     int passenqers; //колличество пассажиров
