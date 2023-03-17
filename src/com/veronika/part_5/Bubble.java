@@ -1,4 +1,4 @@
-package com.veronika.array;
+package com.veronika.part_5;
 
 public class Bubble {
     public static void main(String[] args) {
