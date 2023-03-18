@@ -1,4 +1,4 @@
-package com.veronika.array;
+package com.veronika.part_5.array;
 
 public class LengthDemo {
     public static void main(String[] args) {
